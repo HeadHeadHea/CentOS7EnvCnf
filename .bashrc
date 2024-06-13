@@ -124,4 +124,4 @@ export REPO_URL='https://mirrors.tuna.tsinghua.edu.cn/git/git-repo'
 export PATH="$PATH":~/Android/Sdk/platform-tools/
 
 # bash
-export PS1='\[\033[01;35m\][\[\033[01;32m\]\u\[\033[01;32m\]$(echo $STY | cut -d . -f2)\[\033[01;35m\] \[\033[01;35m\]\[\033[01;35m\]\h\[\033[01;35m\] \[\033[38;5;39m\]\w\[\033[31m\]] \[\033[38;5;221m\]WORK \[\033[1;37m\]${PIPESTATUS[0]}\[\033[01;36m\] \n# \[\033[00m\]'
+export PS1="\[\e[31;1m\][\[\e[32;1m\]\u\[\e[33;1m\]@\[\e[35;1m\]\h\[\e[36;1m\]:\[\e[32;1m\]\w\[\e[31;1m\]]\[\e[33;1m\]\$ \[\e[0m\]"
